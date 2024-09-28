@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="calbg">
+        <input id="display" readonly>
+        <div class="button">
+            <button id="but1" class="btnc" onclick="
+            display = ``;
+            document.querySelector('#display').value = `${display}`;
+            ">c</button>
+            <button id="but1" onclick="
+            display=display+`1`;
+            document.querySelector('#display').value = `${display}`;
+            ">1</button>
+            <button id="but1" onclick="
+            display = display+`2`;
+            document.querySelector('#display').value = `${display}`;
+            ">2</button>
+            <button id="but1" onclick="
+            display = display+`+`;
+            document.querySelector('#display').value = `${display}`;
+            ">+</button>
+            <button id="but1" onclick="
+            display=display+`3`;
+            document.querySelector('#display').value = `${display}`;">3</button>
+            <button id="but1" onclick="
+            display=display+`4`;
+            document.querySelector('#display').value = `${display}`;">4</button>
+            <button id="but1" onclick="
+            display=display+`-`;
+            document.querySelector('#display').value = `${display}`;">-</button>
+            <button id="but1" onclick="
+            display=display+`5`;
+            document.querySelector('#display').value = `${display}`;">5</button>
+            <button id="but1" onclick="
+            display=display+`6`;
+            document.querySelector('#display').value = `${display}`;">6</button>
+            <button id="but1" onclick="
+            display=display+`*`;
+            document.querySelector('#display').value = `${display}`;">*</button>
+            <button id="but1" onclick="
+            display=display+`7`;
+            document.querySelector('#display').value = `${display}`;">7</button>
+            <button id="but1" onclick="
+            display=display+`8`;
+            document.querySelector('#display').value = `${display}`;">8</button>
+            <button id="but1" onclick="
+            display=display+`/`;
+            document.querySelector('#display').value = `${display}`;">/</button>
+            <button id="but1" onclick="
+            display=(eval(display));
+            document.querySelector('#display').value = `${display}`;">=</button>
+            <button id="but1" onclick="
+            display=display+`9`;
+            document.querySelector('#display').value = `${display}`;">9</button>
+            <button id="but1" onclick="
+            display=display+`0`;
+            document.querySelector('#display').value = `${display}`;">0</button>
+            <button id="but1" onclick="
+            display=display+`.`;
+            document.querySelector('#display').value = `${display}`;">.</button>
+        </div>
+    </div>
+    <script>
+        let display = ``;
+        document.querySelector('#display').value = `${display}`;
+    </script>
+</body>
+</html>
